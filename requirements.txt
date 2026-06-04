@@ -1,0 +1,12 @@
+streamlit
+zhipuai
+openpyxl
+pandas
+python-docx
+python-pptx
+pytesseract
+pywin32; sys_platform == 'win32'
+sniffio
+anyio
+tabulate
+python-dotenv
