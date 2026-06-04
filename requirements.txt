@@ -10,3 +10,4 @@ sniffio
 anyio
 tabulate
 python-dotenv
+pywin32; sys_platform == 'win32'
