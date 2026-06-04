@@ -11,7 +11,7 @@ from openpyxl import load_workbook
 from zhipuai import ZhipuAI
 
 # --- 1. 基础配置 ---
-API_KEY = "32c6e34320b945eea55867e99b45a39c.XzA3ByPqlW9Zhhyn"
+API_KEY = st.secrets.get("ZHIPUAI_API_KEY") or os.getenv("ZHIPUAI_API_KEY")
 client = ZhipuAI(api_key=API_KEY)
 
 def force_cleanup():
